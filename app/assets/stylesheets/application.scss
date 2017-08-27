@@ -1,0 +1,337 @@
+/*
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *= require_tree .
+ *= require_self
+ *= require_lato
+ */
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+
+//@import "compass";
+//
+//@import "CVBootstrap/mixins";
+//@import "CVBootstrap/base";
+//@import "lato";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+body {
+
+  font-family: Lato;
+      font: 400;
+      line-height: 1.8;
+      color: #818181;
+
+  }
+  h1{
+    color: white !important; ;
+      font-size: 5em !important;
+    
+  }
+  h2 {
+      font-size: 24px;
+      color: white !important;
+      font-weight: 600;
+      margin-bottom: 30px;
+    
+  }
+  h3 {
+      font-size: 22px;
+      text-transform: uppercase;
+      color: #1e65f4 !important;
+      font-weight: 500;
+      margin-bottom: 30px;
+    
+  }
+  h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      color: #303030;
+      font-weight: 400;
+      margin-bottom: 30px;
+    
+  }
+  h5 {
+    font-size: 30px !important;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+
+
+  }
+  .mettrecentre{
+    height: 50%;
+  }
+.vcenter {
+  display: inline-block;
+  vertical-align: middle;
+  float: none;
+}
+.retifictation{
+  padding-top: 10px !important;
+}
+  .Investment {
+
+      font-size: 22px;
+      color: #1e65f4 !important;
+      font-weight: 500;
+      margin-bottom: 30px;
+  }
+.Venture {
+
+    font-size: 22px;
+    color: #33f45a !important;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.Board_flo {
+
+    font-size: 22px;
+    color: #f4f13c !important;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+  p {
+      font-size: 1,2em !important;
+  }
+  .special {
+    color:white;
+  }
+  .jumbotron {
+      background-color:#1e65f4 !important;
+      height: 100%;
+      color: #f4511e;
+      padding: 100px 25px;
+      
+  }
+  .container-fluid {
+      padding: 60px 50px;
+      margin: 0 auto;
+      height: 100%;
+
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+  }
+.height-full {
+    height: 100vh;
+}
+  .bg-blue {
+      background-color: #0000FF;
+  }
+.bg-green {
+    background-color: #00b386;
+}
+.bg-jaune {
+    background-color: #e6e600;
+}
+.bg-white {
+    background-color: #ffffff
+;
+}
+  .logo-small {
+      color: #f4511e;
+      font-size: 50px;
+  }
+  .logo {
+      color: #f4511e;
+      font-size: 200px;
+  }
+  .thumbnail {
+      padding: 0 0 15px 0;
+      border: none;
+      border-radius: 0;
+      border-color: #f4511e !important;
+  }
+  .thumbnail img {
+      width: 100%;
+      height: 100%;
+      margin-bottom: 10px;
+  }
+  .item h4 {
+      font-size: 19px;
+      line-height: 1.375em;
+      font-weight: 400;
+      font-style: italic;
+      margin: 70px 0;
+  }
+  .item span {
+      font-style: normal;
+  }
+
+.center {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    top: 20%;
+    left: 50%;
+    margin-left: -30%; /* margin is -0.5 * dimension */
+
+}
+
+.centerjaune {
+  position: relative;
+  top: 40% !important;
+
+
+}​​
+  .panel {
+      border: 1px solid #f4511e;
+      border-radius:0 !important;
+      border-color: #f4511e !important;
+  }
+  .panel:hover {
+      box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+      border: 1px solid #f4511e;
+      background-color: #fff !important;
+      color: #f4511e;
+  }
+  .panel-heading {
+      color: #fff !important;
+      background-color: #f4511e !important;
+      padding: 25px;
+      border-bottom: 1px solid transparent;
+      border-top-left: 0px;
+      border-top-right: 0px;
+      border-bottom-left: 0px;
+      border-bottom-right: 0px;
+  }
+  .panel-footer {
+      background-color: white !important;
+  }
+  .panel-footer h3 {
+      font-size: 32px;
+  }
+  .panel-footer h4 {
+      color: #aaa;
+      font-size: 14px;
+  }
+  .panel-footer .btn {
+      margin: 15px 0;
+      background-color: #f4511e;
+      color: #fff;
+  }
+.follow-button{
+    background: #3ecd94;
+    border: 1px solid #000000;
+    /*display: block;*/
+    /*float: right;*/
+    /*background: #0089d1;*/
+    /*color: #006faa;*/
+    /*font-weight: 400;*/
+    font-size: 1.4em;
+/*display: block;*/
+    /*padding: 0px 4px 0px 4px; //modification doesn't show..*/
+/*text-decoration: none;*/
+/*&:hover {*/
+     /*color: rgb(229, 246, 255);*/
+     /*background: #0089d1;*/
+ /*}*/
+}
+.follow-label{
+    border: 1px solid #000000;
+    /*display: block;*/
+    /*float: right;*/
+    /*background: #0089d1;*/
+    /*color: #006faa;*/
+    /*font-weight: 400;*/
+    font-size: 1.4em;
+    /*display: block;*/
+    /*padding: 0px 4px 0px 4px; //modification doesn't show..*/
+    /*text-decoration: none;*/
+    /*&:hover {*/
+    /*color: rgb(229, 246, 255);*/
+    /*background: #0089d1;*/
+    /*}*/
+}
+  .navbar {
+      margin-bottom: 0;
+    background-color: #0000FF;
+      color: white;
+      z-index: 9999;
+      border: 0;
+      text-align: right !important;
+      /*font-size: 20px !important;*/
+      line-height: 1.42857143 !important;
+      letter-spacing: 4px;
+      border-radius: 0;
+      font-family: Montserrat;
+      }
+  .nav navbar-nav navbar-right{
+    text-align: right !important;
+  }
+  .navbar li a, .navbar .navbar-brand {
+      color: white;
+      font-size: 1.4em !important;
+    margin-right: 0px;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+      color: #000000 !important;
+      background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+      border-color: transparent;
+      color: #fff !important;
+  }
+  footer .glyphicon {
+      font-size: 20px;
+      margin-bottom: 20px;
+      color: #f4511e;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+      animation-name: slide;
+      -webkit-animation-name: slide;
+      animation-duration: 1s;
+      -webkit-animation-duration: 1s;
+      visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    }
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+        width: 100%;
+        margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+        font-size: 150px;
+    }
+  }
+  
